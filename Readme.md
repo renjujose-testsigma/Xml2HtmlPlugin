@@ -2,16 +2,17 @@
 Transforming xml file to html using xslt stylesheet
 
 ## Requirments:
-Windows - dotnet core 2.0,powershell
-Mac/Linux - xsltproc(bundled) or install using brew/apt-get
+- Windows - .Net Core 2.0, Powershell 5+(tested on pwsh 7.1.3)
+- Mac/Linux - xsltproc(usually bundled in OS). If not, install using brew/apt-get.
 
 ## Running sample:
 ### Windows
-To run sample, simply execute ./sample.ps1 script
+To run sample, simply execute
 ```powershell
  ./sample.ps1
 ```
-###Mac/Linux
+
+### Mac/Linux
 To run sample, simply execute
 ```bash
 xsltproc sample.xml sample.xslt > sample.html
