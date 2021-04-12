@@ -7,6 +7,10 @@ Transforming xml file to html using xslt stylesheet
 
 
 ## Usage:
+1. Clone the Repo or download the zip.
+2. Navigate to the Repo directory
+3. Execute the below command
+
 ### Windows
 `./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
 
