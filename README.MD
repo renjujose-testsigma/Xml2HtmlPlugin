@@ -16,14 +16,18 @@ Transforming xml file to html using xslt stylesheet
 
 ### Mac/Linux
 In *sh shells,
+
 `pwsh ./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
+
 
 ```sh
 pwsh ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
 ```
 
 In pwsh shell,
+
 `./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
+
 
 ```powershell
 ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
