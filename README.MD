@@ -25,6 +25,7 @@ In pwsh shell,
 
 ## Alternatives
 Also, if you prefer other non-proprietary solutions in Mac/Linux rather than Powershell, 
+
 you can use `xsltproc`(usually bundled in OS, if not, install using brew/apt-get)
 ```bash
 xsltproc sample.xml sample.xslt > sample.html
