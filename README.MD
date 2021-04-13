@@ -7,32 +7,31 @@ Transforming xml file to html using xslt stylesheet
 
 
 ## Usage:
-1. Clone the Repo or download the zip.
-2. Navigate to the Repo directory
+1. Clone the Repo or download the zip - 
+`git clone https://github.com/renjujose-testsigma/Xml2HtmlPlugin.git`
+2. Navigate to the Repo directory - 
+`cd Xml2HtmlPlugin`
 3. Execute the below command
 
-### Windows
-`./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
+#### Windows
+`./Xml2Html.ps1 <inputxml-filepath> <stylesheet-filepath> <outputhtml-filepath>`
 
+Example:
 ```powershell
 ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
 ```
 
-### Mac/Linux
-In *sh shells,
+#### Mac/Linux
+In *sh shells - `pwsh ./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
 
-`pwsh ./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
-
-
+Example:
 ```sh
 pwsh ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
 ```
 
-In pwsh shell,
+In pwsh shell - `./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
 
-`./Xml2Html.ps1 <inputxmlfilepath> <stylesheetfilepath> <outputhtmlfilepath>`
-
-
+Example:
 ```powershell
 ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
 ```
