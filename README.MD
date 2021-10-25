@@ -18,7 +18,7 @@ Transforming xml file to html using xslt stylesheet
 
 Example:
 ```powershell
-./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
+./Xml2Html.ps1 ./samples/sample.xml ./samples/sample.xslt ./samples/sample.html
 ```
 ***
 ### Mac/Linux(Unix shells)
@@ -26,7 +26,7 @@ Example:
 
 Example:
 ```sh
-pwsh ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
+pwsh ./Xml2Html.ps1 ./samples/sample.xml ./samples/sample.xslt ./samples/sample.html
 ```
 ***
 ### Mac/Linux (Pwsh shell)
@@ -34,7 +34,7 @@ pwsh ./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
 
 Example:
 ```powershell
-./Xml2Html.ps1 ./sample.xml ./sample.xslt ./sample.html
+./Xml2Html.ps1 ./samples/sample.xml ./samples/sample.xslt ./samples/sample.html
 ```
 ####################################################################
 ## Alternatives
@@ -42,7 +42,7 @@ Also, if you prefer other non-proprietary solutions in Mac/Linux rather than Pow
 
 you can use `xsltproc`(usually bundled in OS, if not, install using brew/apt-get)
 ```bash
-xsltproc sample.xml sample.xslt > sample.html
+xsltproc ./samples/sample.xml ./samples/sample.xslt > ./samples/sample.html
 ```
 
-All of the above will transform sample.xml to sample.html using sample.xslt stylesheet.
+All of the above will transform *sample.xml* to *sample.html* using *sample.xslt* stylesheet.
